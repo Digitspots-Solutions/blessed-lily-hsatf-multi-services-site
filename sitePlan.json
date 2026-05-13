@@ -1,0 +1,49 @@
+{
+  "businessName": "Blessed Lily HSATF & Multi Services",
+  "industry": "Fintech",
+  "tone": "professional and trustworthy",
+  "tagline": "Your Trusted Financial Partner in Owerri",
+  "sections": [
+    {
+      "id": "hero",
+      "name": "Hero",
+      "copy": "Welcome to Blessed Lily HSATF & Multi Services - Your gateway to seamless financial solutions in Owerri. We provide reliable fintech services that empower individuals and businesses to achieve their financial goals with confidence and security.",
+      "imagePrompt": "Professional Nigerian fintech office interior with modern computers and digital displays, warm lighting, customers being served at sleek counters, Owerri cityscape visible through large windows, professional staff in business attire, vibrant and trustworthy atmosphere",
+      "layout": "centered"
+    },
+    {
+      "id": "about",
+      "name": "About Us",
+      "copy": "Blessed Lily HSATF & Multi Services is a trusted fintech service provider based in Owerri North, Imo State. We specialize in delivering comprehensive financial technology solutions that make banking, payments, and financial transactions easier and more accessible for our customers. Our commitment to excellence, security, and customer satisfaction has made us a preferred choice for individuals and businesses seeking reliable financial services. Located conveniently at Ulakwo Ndiama along Seat of Wisdom Seminary School, we combine cutting-edge technology with personalized service to meet all your financial needs.",
+      "imagePrompt": "Modern Nigerian fintech office building exterior in Owerri with clear blue sky, well-maintained compound, professional signage, customers entering and exiting, clean environment with tropical trees and plants, sense of established credibility",
+      "layout": "split"
+    },
+    {
+      "id": "services",
+      "name": "Our Services",
+      "copy": "At Blessed Lily HSATF & Multi Services, we offer a comprehensive range of fintech solutions designed to meet your everyday financial needs:\n\n**Money Transfer Services** - Send and receive money locally and internationally with speed and security\n\n**Bill Payments** - Pay your electricity, water, cable TV, and internet bills conveniently\n\n**Airtime & Data** - Purchase airtime and data bundles for all Nigerian networks at competitive rates\n\n**Bank Services** - Access banking services including account opening assistance and financial advisory\n\n**POS Services** - Withdraw cash and make payments using our reliable point-of-sale terminals\n\n**Digital Payments** - Accept and process digital payments for your business seamlessly\n\nAll our services are delivered with the highest standards of security and efficiency, ensuring your financial transactions are safe and hassle-free.",
+      "imagePrompt": "Collage-style image showing various fintech services: Nigerian woman using mobile banking app, POS terminal processing payment, bills being paid on computer screen, money transfer in progress, data bundles icons, all set in clean modern Nigerian office environment with professional lighting",
+      "layout": "grid"
+    },
+    {
+      "id": "contact",
+      "name": "Contact Us",
+      "copy": "Ready to experience seamless financial services? Visit us today or get in touch:\n\n**Visit Our Office:**\nUlakwo Ndiama along Seat of Wisdom Seminary School\nOwerri North LGA, Imo State\n\n**Call Us:**\n07068268315\n\n**Operating Hours:**\nMonday - Friday: 8:00 AM - 6:00 PM\nSaturday: 9:00 AM - 4:00 PM\n\nWhether you need to make a quick transaction or require detailed financial advice, our friendly team is ready to assist you. Walk in or contact us via WhatsApp for immediate support.",
+      "imagePrompt": "Welcoming Nigerian fintech office reception area with comfortable seating, professional receptionist at modern desk, contact information displayed on digital screen, map of Owerri showing location, warm professional lighting, customers being attended to with smiles",
+      "layout": "centered"
+    },
+    {
+      "id": "testimonials",
+      "name": "What Our Clients Say",
+      "copy": "**Mr. Chukwudi Okafor** - Business Owner\n\"Blessed Lily has made managing my business finances so much easier. Their POS services are reliable and their staff are always professional and helpful.\"\n\n**Mrs. Ngozi Eze** - Retail Trader\n\"I've been using Blessed Lily for all my bill payments and money transfers. They're fast, secure, and conveniently located. Highly recommended!\"\n\n**Emeka Nwachukwu** - Student\n\"The best place to buy airtime and data in Owerri North. Their rates are competitive and the service is always quick. I never go anywhere else.\"",
+      "imagePrompt": "Happy Nigerian customers of different ages in casual and business attire, smiling and holding phones or receipts, standing outside modern fintech office, authentic candid expressions of satisfaction, natural outdoor lighting in Owerri setting",
+      "layout": "cards"
+    }
+  ],
+  "contact": {
+    "phone": "07068268315",
+    "email": "info@blessedlily.ng",
+    "address": "Ulakwo Ndiama along Seat of Wisdom Seminary School, Owerri North LGA, Imo State",
+    "whatsapp": "https://wa.me/2347068268315"
+  }
+}
