@@ -3,21 +3,21 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Blessed Lily HSATF & Multi Services - Your Trusted Financial Partner in Owerri</title>
+    <title>Duds House Drilling Services Co - Excellence in Drilling Operations and Wellhead Solutions</title>
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@400;500;600;700&family=Nunito+Sans:wght@300;400;600&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@0,9..144,400;0,9..144,700;1,9..144,400&family=Manrope:wght@300;400;500&display=swap" rel="stylesheet">
     <style>
         :root {
-            --color-primary: #1d1108;
-            --color-accent: #f27a1a;
-            --color-bg: #FFF8F2;
-            --color-text: #1A0F08;
-            --color-surface: #2c1d0c;
-            --color-secondary-accent: #28b46d;
-            --font-display: 'Outfit', sans-serif;
-            --font-body: 'Nunito Sans', sans-serif;
-            --border-radius: 16px;
+            --color-primary: #0c2338;
+            --color-accent: #a77f0f;
+            --color-bg: #F8F6F0;
+            --color-text: #0C1B2E;
+            --color-surface: #112433;
+            --color-secondary-accent: #769399;
+            --font-display: 'Fraunces', serif;
+            --font-body: 'Manrope', sans-serif;
+            --border-radius: 2px;
         }
 
         * {
@@ -34,13 +34,20 @@
             font-family: var(--font-body);
             color: var(--color-text);
             background-color: var(--color-bg);
-            line-height: 1.6;
+            line-height: 1.7;
+            font-weight: 400;
         }
 
-        h1, h2, h3, h4, h5, h6 {
+        h1, h2, h3, h4 {
             font-family: var(--font-display);
-            font-weight: 600;
+            font-weight: 700;
             line-height: 1.2;
+        }
+
+        .container {
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 0 1.5rem;
         }
 
         @keyframes fadeUp {
@@ -58,38 +65,39 @@
         nav {
             position: sticky;
             top: 0;
-            background: rgba(255, 248, 242, 0.95);
+            background: rgba(248, 246, 240, 0.95);
             backdrop-filter: blur(10px);
             z-index: 1000;
-            box-shadow: 0 2px 10px rgba(29, 17, 8, 0.1);
+            border-bottom: 1px solid rgba(12, 35, 56, 0.1);
         }
 
-        .nav-container {
-            max-width: 1200px;
-            margin: 0 auto;
-            padding: 1rem 2rem;
+        nav .container {
             display: flex;
             justify-content: space-between;
             align-items: center;
+            padding-top: 1.25rem;
+            padding-bottom: 1.25rem;
         }
 
         .logo {
             font-family: var(--font-display);
-            font-size: 1.5rem;
+            font-size: 1.35rem;
             font-weight: 700;
             color: var(--color-primary);
+            text-decoration: none;
         }
 
         .nav-links {
             display: flex;
             list-style: none;
-            gap: 2rem;
+            gap: 2.5rem;
         }
 
         .nav-links a {
             text-decoration: none;
             color: var(--color-text);
             font-weight: 500;
+            font-size: 0.95rem;
             transition: color 0.3s ease;
         }
 
@@ -97,7 +105,6 @@
             color: var(--color-accent);
         }
 
-        /* Mobile Menu Button */
         .mobile-menu-btn {
             display: none;
             flex-direction: column;
@@ -125,7 +132,6 @@
             transform: rotate(-45deg) translate(6px, -6px);
         }
 
-        /* Mobile Menu */
         .mobile-menu {
             position: fixed;
             top: 70px;
@@ -168,10 +174,12 @@
         /* Hero Section */
         #hero {
             position: relative;
-            min-height: 100vh;
+            height: 100vh;
             display: flex;
             align-items: center;
             justify-content: center;
+            text-align: center;
+            color: white;
             overflow: hidden;
             animation: fadeUp 0.6s ease forwards;
         }
@@ -183,7 +191,7 @@
             width: 100%;
             height: 100%;
             object-fit: cover;
-            z-index: 1;
+            z-index: 0;
         }
 
         .hero-overlay {
@@ -193,38 +201,37 @@
             width: 100%;
             height: 100%;
             background: rgba(0, 0, 0, 0.55);
-            z-index: 2;
+            z-index: 1;
         }
 
         .hero-content {
             position: relative;
-            z-index: 3;
-            max-width: 1200px;
-            padding: 0 2rem;
-            text-align: center;
-            color: white;
+            z-index: 2;
+            max-width: 900px;
+            padding: 2rem;
         }
 
         .hero-content h1 {
             font-size: 3.5rem;
             margin-bottom: 1.5rem;
-            text-shadow: 2px 2px 4px rgba(0,0,0,0.3);
-        }
-
-        .hero-content .tagline {
-            font-size: 1.5rem;
-            margin-bottom: 1rem;
-            color: var(--color-accent);
-            font-weight: 600;
+            text-shadow: 2px 2px 8px rgba(0,0,0,0.3);
         }
 
         .hero-content p {
-            font-size: 1.2rem;
-            margin-bottom: 2.5rem;
-            max-width: 800px;
+            font-size: 1.25rem;
+            margin-bottom: 2rem;
+            line-height: 1.8;
+            max-width: 700px;
             margin-left: auto;
             margin-right: auto;
-            line-height: 1.8;
+        }
+
+        .hero-tagline {
+            font-family: var(--font-display);
+            font-style: italic;
+            font-size: 1.4rem;
+            color: var(--color-accent);
+            margin-top: 1.5rem;
         }
 
         .cta-button {
@@ -234,44 +241,31 @@
             color: white;
             text-decoration: none;
             border-radius: var(--border-radius);
-            font-weight: 600;
-            font-size: 1.1rem;
+            font-weight: 500;
+            font-size: 1.05rem;
             transition: all 0.3s ease;
-            box-shadow: 0 4px 15px rgba(242, 122, 26, 0.3);
+            box-shadow: 0 4px 12px rgba(167, 127, 15, 0.3);
         }
 
         .cta-button:hover {
-            background: #d96b15;
+            background: #8f6d0d;
             transform: translateY(-2px);
-            box-shadow: 0 6px 20px rgba(242, 122, 26, 0.4);
+            box-shadow: 0 6px 16px rgba(167, 127, 15, 0.4);
         }
 
-        /* Section Styles */
-        section {
-            padding: 80px 2rem;
-            animation: fadeUp 0.6s ease forwards;
-        }
-
-        section:nth-child(2) { animation-delay: 0.1s; }
-        section:nth-child(3) { animation-delay: 0.2s; }
-        section:nth-child(4) { animation-delay: 0.3s; }
-        section:nth-child(5) { animation-delay: 0.4s; }
-
-        .container {
-            max-width: 1200px;
+        /* Section Divider */
+        .section-divider {
+            height: 1px;
+            background: linear-gradient(to right, transparent, var(--color-accent), transparent);
             margin: 0 auto;
-        }
-
-        .section-title {
-            font-size: 2.5rem;
-            margin-bottom: 3rem;
-            text-align: center;
-            color: var(--color-primary);
+            max-width: 800px;
         }
 
         /* About Section */
         #about {
-            background: white;
+            padding: 5rem 0;
+            animation: fadeUp 0.6s ease forwards;
+            animation-delay: 0.1s;
         }
 
         .about-content {
@@ -286,53 +280,78 @@
             height: 500px;
             object-fit: cover;
             border-radius: var(--border-radius);
-            box-shadow: 0 10px 30px rgba(29, 17, 8, 0.15);
         }
 
-        .about-text {
-            font-size: 1.1rem;
-            line-height: 1.8;
+        .about-text h2 {
+            font-size: 2.75rem;
+            color: var(--color-primary);
+            margin-bottom: 1.5rem;
+        }
+
+        .about-text p {
+            margin-bottom: 1.25rem;
+            font-size: 1.05rem;
         }
 
         /* Services Section */
         #services {
-            background: var(--color-bg);
+            padding: 5rem 0;
+            background: white;
+            animation: fadeUp 0.6s ease forwards;
+            animation-delay: 0.2s;
+        }
+
+        #services h2 {
+            text-align: center;
+            font-size: 2.75rem;
+            color: var(--color-primary);
+            margin-bottom: 3rem;
         }
 
         .services-grid {
             display: grid;
             grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
             gap: 2rem;
-            margin-top: 2rem;
+            margin-top: 3rem;
         }
 
         .service-card {
-            background: white;
+            background: var(--color-bg);
             padding: 2rem;
             border-radius: var(--border-radius);
-            box-shadow: 0 4px 15px rgba(29, 17, 8, 0.1);
-            transition: all 0.3s ease;
+            border-left: 3px solid var(--color-accent);
+            transition: transform 0.3s ease;
         }
 
         .service-card:hover {
-            transform: translateY(-5px);
-            box-shadow: 0 8px 25px rgba(29, 17, 8, 0.15);
+            transform: translateY(-4px);
         }
 
         .service-card h3 {
-            color: var(--color-accent);
+            font-size: 1.5rem;
+            color: var(--color-primary);
             margin-bottom: 1rem;
-            font-size: 1.4rem;
         }
 
         .service-card p {
-            color: var(--color-text);
+            font-size: 0.98rem;
             line-height: 1.7;
         }
 
         /* Contact Section */
         #contact {
-            background: white;
+            padding: 5rem 0;
+            background: var(--color-surface);
+            color: white;
+            animation: fadeUp 0.6s ease forwards;
+            animation-delay: 0.3s;
+        }
+
+        #contact h2 {
+            text-align: center;
+            font-size: 2.75rem;
+            color: white;
+            margin-bottom: 2rem;
         }
 
         .contact-content {
@@ -341,34 +360,41 @@
             text-align: center;
         }
 
-        .contact-info {
-            display: grid;
-            grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
-            gap: 2rem;
-            margin-top: 3rem;
+        .contact-content p {
+            font-size: 1.1rem;
+            margin-bottom: 2rem;
+            line-height: 1.8;
+        }
+
+        .contact-details {
+            background: rgba(255, 255, 255, 0.05);
+            padding: 2.5rem;
+            border-radius: var(--border-radius);
+            margin: 2rem 0;
+            text-align: left;
+        }
+
+        .contact-details h3 {
+            color: var(--color-accent);
+            margin-bottom: 1.5rem;
+            font-size: 1.5rem;
         }
 
         .contact-item {
-            background: var(--color-bg);
-            padding: 2rem;
-            border-radius: var(--border-radius);
-            box-shadow: 0 4px 15px rgba(29, 17, 8, 0.1);
-        }
-
-        .contact-item h3 {
-            color: var(--color-accent);
             margin-bottom: 1rem;
+            font-size: 1.05rem;
         }
 
-        .contact-item p {
-            margin-bottom: 0.5rem;
-            line-height: 1.7;
+        .contact-item strong {
+            color: var(--color-accent);
+            display: inline-block;
+            min-width: 100px;
         }
 
         .contact-item a {
-            color: var(--color-primary);
+            color: white;
             text-decoration: none;
-            font-weight: 600;
+            transition: color 0.3s ease;
         }
 
         .contact-item a:hover {
@@ -377,76 +403,62 @@
 
         .contact-buttons {
             display: flex;
+            gap: 1.5rem;
             justify-content: center;
-            gap: 1rem;
-            margin-top: 2rem;
             flex-wrap: wrap;
+            margin-top: 2rem;
         }
 
         .contact-btn {
-            display: inline-block;
-            padding: 1rem 2rem;
-            border-radius: var(--border-radius);
+            display: inline-flex;
+            align-items: center;
+            gap: 0.5rem;
+            padding: 0.9rem 2rem;
+            background: var(--color-accent);
+            color: white;
             text-decoration: none;
-            font-weight: 600;
+            border-radius: var(--border-radius);
+            font-weight: 500;
             transition: all 0.3s ease;
         }
 
-        .contact-btn.phone {
-            background: var(--color-primary);
-            color: white;
+        .contact-btn:hover {
+            background: #8f6d0d;
+            transform: translateY(-2px);
         }
 
-        .contact-btn.phone:hover {
-            background: var(--color-surface);
-        }
-
-        .contact-btn.whatsapp {
+        .whatsapp-btn {
             background: #25D366;
-            color: white;
         }
 
-        .contact-btn.whatsapp:hover {
+        .whatsapp-btn:hover {
             background: #1fb855;
         }
 
-        /* Testimonials Section */
-        #testimonials {
-            background: var(--color-bg);
+        /* WhatsApp Floating Button */
+        .whatsapp-float {
+            position: fixed;
+            width: 60px;
+            height: 60px;
+            bottom: 30px;
+            right: 30px;
+            background-color: #25D366;
+            color: white;
+            border-radius: 50%;
+            text-align: center;
+            font-size: 30px;
+            box-shadow: 2px 2px 12px rgba(0,0,0,0.3);
+            z-index: 999;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            text-decoration: none;
+            transition: all 0.3s ease;
         }
 
-        .testimonials-grid {
-            display: grid;
-            grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
-            gap: 2rem;
-            margin-top: 2rem;
-        }
-
-        .testimonial-card {
-            background: white;
-            padding: 2rem;
-            border-radius: var(--border-radius);
-            border-left: 4px solid var(--color-accent);
-            box-shadow: 0 4px 15px rgba(29, 17, 8, 0.1);
-        }
-
-        .testimonial-card p {
-            font-style: italic;
-            margin-bottom: 1.5rem;
-            line-height: 1.8;
-            color: var(--color-text);
-        }
-
-        .testimonial-author {
-            font-weight: 600;
-            color: var(--color-primary);
-            font-style: normal;
-        }
-
-        .testimonial-role {
-            color: var(--color-accent);
-            font-size: 0.9rem;
-            margin-top: 0.5rem;
+        .whatsapp-float:hover {
+            background-color: #1fb855;
+            transform: scale(1.1);
         }
 
         /* Footer */
@@ -454,35 +466,30 @@
             background: var(--color-primary);
             color: white;
             text-align: center;
-            padding: 2rem;
+            padding: 2rem 0;
+            animation: fadeUp 0.6s ease forwards;
+            animation-delay: 0.4s;
         }
 
-        /* WhatsApp Floating Button */
-        .whatsapp-float {
-            position: fixed;
-            bottom: 30px;
-            right: 30px;
-            background: #25D366;
-            color: white;
-            width: 60px;
-            height: 60px;
-            border-radius: 50%;
-            display: flex;
-            align-items: center;
-            justify-content: center;
-            box-shadow: 0 4px 15px rgba(37, 211, 102, 0.4);
-            z-index: 1000;
-            text-decoration: none;
-            font-size: 30px;
-            transition: all 0.3s ease;
-        }
-
-        .whatsapp-float:hover {
-            transform: scale(1.1);
-            box-shadow: 0 6px 20px rgba(37, 211, 102, 0.6);
+        footer p {
+            font-size: 0.95rem;
         }
 
         /* Responsive */
+        @media (max-width: 1024px) {
+            .hero-content h1 {
+                font-size: 2.75rem;
+            }
+
+            .about-content {
+                gap: 3rem;
+            }
+
+            .about-text h2, #services h2, #contact h2 {
+                font-size: 2.25rem;
+            }
+        }
+
         @media (max-width: 768px) {
             .nav-links {
                 display: none;
@@ -492,24 +499,16 @@
                 display: flex;
             }
 
-            section {
-                padding: 48px 1.5rem;
-            }
-
             .hero-content h1 {
                 font-size: 2rem;
             }
 
-            .hero-content .tagline {
-                font-size: 1.2rem;
-            }
-
             .hero-content p {
-                font-size: 1rem;
+                font-size: 1.05rem;
             }
 
-            .section-title {
-                font-size: 2rem;
+            .hero-tagline {
+                font-size: 1.1rem;
             }
 
             .about-content {
@@ -518,49 +517,44 @@
             }
 
             .about-image {
-                height: 300px;
+                height: 350px;
             }
 
-            .services-grid,
-            .testimonials-grid {
+            .about-text h2, #services h2, #contact h2 {
+                font-size: 1.9rem;
+            }
+
+            .services-grid {
                 grid-template-columns: 1fr;
             }
 
-            .contact-info {
-                grid-template-columns: 1fr;
+            .contact-buttons {
+                flex-direction: column;
+                align-items: stretch;
+            }
+
+            #hero, #about, #services, #contact {
+                padding: 3rem 0;
             }
 
             .whatsapp-float {
                 width: 50px;
                 height: 50px;
-                font-size: 24px;
                 bottom: 20px;
                 right: 20px;
-            }
-        }
-
-        @media (max-width: 480px) {
-            .hero-content h1 {
-                font-size: 1.75rem;
-            }
-
-            .cta-button {
-                padding: 0.875rem 2rem;
-                font-size: 1rem;
+                font-size: 24px;
             }
         }
     </style>
 </head>
 <body>
-    <!-- Navigation -->
     <nav>
-        <div class="nav-container">
-            <div class="logo">Blessed Lily</div>
+        <div class="container">
+            <a href="#hero" class="logo">Duds House Drilling</a>
             <ul class="nav-links">
                 <li><a href="#hero">Home</a></li>
                 <li><a href="#about">About</a></li>
                 <li><a href="#services">Services</a></li>
-                <li><a href="#testimonials">Testimonials</a></li>
                 <li><a href="#contact">Contact</a></li>
             </ul>
             <div class="mobile-menu-btn">
@@ -569,139 +563,125 @@
                 <span></span>
             </div>
         </div>
-        <div class="mobile-menu">
-            <ul>
-                <li><a href="#hero">Home</a></li>
-                <li><a href="#about">About</a></li>
-                <li><a href="#services">Services</a></li>
-                <li><a href="#testimonials">Testimonials</a></li>
-                <li><a href="#contact">Contact</a></li>
-            </ul>
-        </div>
     </nav>
 
-    <!-- Hero Section -->
+    <div class="mobile-menu">
+        <ul>
+            <li><a href="#hero">Home</a></li>
+            <li><a href="#about">About</a></li>
+            <li><a href="#services">Services</a></li>
+            <li><a href="#contact">Contact</a></li>
+        </ul>
+    </div>
+
     <section id="hero">
-        <img src="https://images.pexels.com/photos/30677719/pexels-photo-30677719.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940" alt="Blessed Lily HSATF & Multi Services" class="hero-image">
+        <img src="https://images.pexels.com/photos/9203785/pexels-photo-9203785.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940" alt="Oil drilling operations" class="hero-image">
         <div class="hero-overlay"></div>
         <div class="hero-content">
-            <h1>Blessed Lily HSATF & Multi Services</h1>
-            <p class="tagline">Your Trusted Financial Partner in Owerri</p>
-            <p>Welcome to Blessed Lily HSATF & Multi Services - Your gateway to seamless financial solutions in Owerri. We provide reliable fintech services that empower individuals and businesses to achieve their financial goals with confidence and security.</p>
-            <a href="#contact" class="cta-button">Get Started Today</a>
+            <h1>Duds House Drilling Services Co</h1>
+            <p>Leading provider of comprehensive drilling services and wellhead solutions across Nigeria's oil and gas sector. With expert HSE management and operational excellence, we deliver safe, efficient, and reliable services for upstream operations.</p>
+            <div class="hero-tagline">Experience. Safety. Performance.</div>
+            <a href="#contact" class="cta-button">Get In Touch</a>
         </div>
     </section>
 
-    <!-- About Section -->
+    <div class="section-divider"></div>
+
     <section id="about">
         <div class="container">
-            <h2 class="section-title">About Us</h2>
             <div class="about-content">
-                <img src="https://images.pexels.com/photos/33644177/pexels-photo-33644177.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940" alt="About Blessed Lily" class="about-image">
+                <img src="https://images.pexels.com/photos/28074289/pexels-photo-28074289.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940" alt="About Duds House Drilling Services" class="about-image">
                 <div class="about-text">
-                    <p>Blessed Lily HSATF & Multi Services is a trusted fintech service provider based in Owerri North, Imo State. We specialize in delivering comprehensive financial technology solutions that make banking, payments, and financial transactions easier and more accessible for our customers. Our commitment to excellence, security, and customer satisfaction has made us a preferred choice for individuals and businesses seeking reliable financial services. Located conveniently at Ulakwo Ndiama along Seat of Wisdom Seminary School, we combine cutting-edge technology with personalized service to meet all your financial needs.</p>
+                    <h2>About Us</h2>
+                    <p>Duds House Drilling Services Co (also operating as Duds House Wellhead Solutions Limited) is a premier oil and gas service provider based in Owerri, Imo State. We specialize in comprehensive drilling operations and wellhead solutions for the Nigerian petroleum industry.</p>
+                    <p>Led by experienced HSE management professionals, our company is built on a foundation of operational excellence, safety integrity, and technical expertise. We understand the demanding nature of oil and gas operations and are committed to delivering services that meet international standards while maintaining the highest safety protocols.</p>
+                    <p>Our strategic location in Owerri positions us to serve operators across the Niger Delta and surrounding regions with rapid response times and local expertise. We combine technical proficiency with a deep understanding of Nigeria's regulatory environment and operational challenges.</p>
+                    <p>At Duds House, safety is not just a priority—it's our culture. Every project is executed with meticulous attention to health, safety, and environmental standards, ensuring protection for our personnel, clients, and communities.</p>
                 </div>
             </div>
         </div>
     </section>
 
-    <!-- Services Section -->
+    <div class="section-divider"></div>
+
     <section id="services">
         <div class="container">
-            <h2 class="section-title">Our Services</h2>
+            <h2>Our Services</h2>
             <div class="services-grid">
                 <div class="service-card">
-                    <h3>Money Transfer Services</h3>
-                    <p>Send and receive money locally and internationally with speed and security</p>
+                    <h3>Drilling Operations</h3>
+                    <p>Comprehensive drilling services including land rig operations, directional drilling support, and drilling fluids management. Our experienced crews ensure efficient operations while maintaining strict safety and environmental compliance.</p>
                 </div>
                 <div class="service-card">
-                    <h3>Bill Payments</h3>
-                    <p>Pay your electricity, water, cable TV, and internet bills conveniently</p>
+                    <h3>Wellhead Solutions</h3>
+                    <p>Complete wellhead installation, maintenance, and integrity management services. We provide expert solutions for wellhead equipment supply, installation supervision, and ongoing maintenance programs.</p>
                 </div>
                 <div class="service-card">
-                    <h3>Airtime & Data</h3>
-                    <p>Purchase airtime and data bundles for all Nigerian networks at competitive rates</p>
+                    <h3>HSE Management</h3>
+                    <p>Professional Health, Safety, and Environment management services including HSE planning, risk assessment, safety audits, and regulatory compliance. Our HSE programs meet Nigerian DPR requirements and international oil and gas standards.</p>
                 </div>
                 <div class="service-card">
-                    <h3>Bank Services</h3>
-                    <p>Access banking services including account opening assistance and financial advisory</p>
+                    <h3>Drilling Supervision</h3>
+                    <p>Experienced drilling supervision services providing on-site oversight, quality control, and technical support to ensure operations meet specifications and industry best practices.</p>
                 </div>
                 <div class="service-card">
-                    <h3>POS Services</h3>
-                    <p>Withdraw cash and make payments using our reliable point-of-sale terminals</p>
+                    <h3>Equipment Supply</h3>
+                    <p>Reliable supply of quality drilling and wellhead equipment, tools, and consumables. We maintain relationships with trusted manufacturers to ensure availability and technical support.</p>
                 </div>
                 <div class="service-card">
-                    <h3>Digital Payments</h3>
-                    <p>Accept and process digital payments for your business seamlessly</p>
-                </div>
-            </div>
-            <div style="margin-top: 3rem; text-align: center; font-size: 1.1rem; line-height: 1.8;">
-                <p>All our services are delivered with the highest standards of security and efficiency, ensuring your financial transactions are safe and hassle-free.</p>
-            </div>
-        </div>
-    </section>
-
-    <!-- Testimonials Section -->
-    <section id="testimonials">
-        <div class="container">
-            <h2 class="section-title">What Our Clients Say</h2>
-            <div class="testimonials-grid">
-                <div class="testimonial-card">
-                    <p>"Blessed Lily has made managing my business finances so much easier. Their POS services are reliable and their staff are always professional and helpful."</p>
-                    <div class="testimonial-author">Mr. Chukwudi Okafor</div>
-                    <div class="testimonial-role">Business Owner</div>
-                </div>
-                <div class="testimonial-card">
-                    <p>"I've been using Blessed Lily for all my bill payments and money transfers. They're fast, secure, and conveniently located. Highly recommended!"</p>
-                    <div class="testimonial-author">Mrs. Ngozi Eze</div>
-                    <div class="testimonial-role">Retail Trader</div>
-                </div>
-                <div class="testimonial-card">
-                    <p>"The best place to buy airtime and data in Owerri North. Their rates are competitive and the service is always quick. I never go anywhere else."</p>
-                    <div class="testimonial-author">Emeka Nwachukwu</div>
-                    <div class="testimonial-role">Student</div>
+                    <h3>Technical Consultation</h3>
+                    <p>Expert consultation on drilling programs, wellhead design, safety systems, and operational optimization for oil and gas operators throughout Nigeria.</p>
                 </div>
             </div>
         </div>
     </section>
 
-    <!-- Contact Section -->
+    <div class="section-divider"></div>
+
     <section id="contact">
         <div class="container">
-            <h2 class="section-title">Contact Us</h2>
             <div class="contact-content">
-                <p style="font-size: 1.1rem; margin-bottom: 2rem;">Ready to experience seamless financial services? Visit us today or get in touch:</p>
-                <div class="contact-info">
+                <h2>Contact Us</h2>
+                <p>Ready to discuss your drilling and wellhead requirements? Our team is available to provide expert consultation and competitive quotations for your oil and gas operations.</p>
+                
+                <div class="contact-details">
+                    <h3>Duds House Drilling Services Co</h3>
                     <div class="contact-item">
-                        <h3>Visit Our Office</h3>
-                        <p>Ulakwo Ndiama along Seat of Wisdom Seminary School<br>Owerri North LGA, Imo State</p>
+                        <strong>Address:</strong> Ulakwo Ndiama along seat of wisdom seminary school, Owerri North LGA, Imo State, Nigeria
                     </div>
                     <div class="contact-item">
-                        <h3>Call Us</h3>
-                        <p><a href="tel:07068268315">07068268315</a></p>
+                        <strong>Phone:</strong> <a href="tel:07068268315">0706 826 8315</a>
                     </div>
                     <div class="contact-item">
-                        <h3>Operating Hours</h3>
-                        <p>Monday - Friday: 8:00 AM - 6:00 PM<br>Saturday: 9:00 AM - 4:00 PM</p>
+                        <strong>Email:</strong> <a href="mailto:info@dudshouse.com">info@dudshouse.com</a>
+                    </div>
+                    <div class="contact-item">
+                        <strong>Hours:</strong> Monday - Friday: 8:00 AM - 5:00 PM | Saturday: 9:00 AM - 2:00 PM
+                    </div>
+                    <div class="contact-item">
+                        <strong>Emergency:</strong> 24/7 Response Available
                     </div>
                 </div>
+
                 <div class="contact-buttons">
-                    <a href="tel:07068268315" class="contact-btn phone">Call Now</a>
-                    <a href="https://wa.me/2347068268315" target="_blank" class="contact-btn whatsapp">WhatsApp Us</a>
+                    <a href="tel:07068268315" class="contact-btn">📞 Call Us</a>
+                    <a href="mailto:info@dudshouse.com" class="contact-btn">✉️ Email Us</a>
+                    <a href="https://wa.me/2347068268315" class="whatsapp-btn contact-btn" target="_blank">💬 WhatsApp</a>
                 </div>
-                <p style="margin-top: 2rem; font-size: 1.05rem;">Whether you need to make a quick transaction or require detailed financial advice, our friendly team is ready to assist you. Walk in or contact us via WhatsApp for immediate support.</p>
+
+                <p style="margin-top: 2rem; font-size: 0.95rem;">For immediate inquiries, reach us via WhatsApp. We respond to all queries within 24 hours during business days.</p>
             </div>
         </div>
     </section>
 
-    <!-- Footer -->
     <footer>
-        <p>&copy; 2025 Blessed Lily HSATF & Multi Services. All rights reserved.</p>
+        <div class="container">
+            <p>&copy; 2024 Duds House Drilling Services Co. All rights reserved.</p>
+        </div>
     </footer>
 
-    <!-- WhatsApp Floating Button -->
-    <a href="https://wa.me/2347068268315" target="_blank" class="whatsapp-float">
-        <span>💬</span>
+    <a href="https://wa.me/2347068268315" class="whatsapp-float" target="_blank">
+        💬
     </a>
 
     <script>
